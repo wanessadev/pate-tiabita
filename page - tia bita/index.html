@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Doces da Tia Bita: confeitaria artesanal com bolos, tortas e doces afetivos para encomendas especiais."
+    />
+    <title>Doces da Tia Bita</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Navegação principal">
+        <a class="brand" href="#inicio" aria-label="Doces da Tia Bita">
+          <span class="brand-mark brand-logo-wrap">
+            <img src="assets/logo-tia-bita.png" alt="" />
+          </span>
+          <span>
+            <strong>Doces da</strong>
+            <small>Tia Bita</small>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu" data-nav-menu>
+          <a href="#inicio">Início</a>
+          <a href="#destaques">Destaques</a>
+          <a href="#cardapio">Cardápio</a>
+          <a href="#historia">Nossa História</a>
+          <a href="#instagram">Instagram</a>
+          <a href="#contato">Contato</a>
+        </div>
+
+        <a class="btn btn-primary nav-cta" href="https://wa.me/+5585986441960" target="_blank" rel="noreferrer">
+          Fazer Pedido
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="inicio">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Confeitaria artesanal por encomenda</span>
+            <h1>Doces que chegam como carinho e ficam na memória.</h1>
+            <p>
+              Bolos, tortas e sobremesas preparados em pequenos lotes, com receitas de família,
+              acabamento delicado e aquele sabor de mesa cheia.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary btn-float" href="#destaques">Ver doces</a>
+              <a class="btn btn-ghost btn-float" href="#historia">Conhecer a Tia Bita</a>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-label="Bolo artesanal decorado">
+            <div class="hero-orbit hero-orbit-top">
+              <strong>♡</strong>
+              <span>Fortaleza-CE</span>
+            </div>
+            <img
+              src="bolo-floral.jpeg"
+              alt="Bolo de chocolate artesanal com cobertura cremosa"
+            />
+            <div class="hero-orbit hero-orbit-bottom">
+              <strong>BOLO DECORADO</strong>
+              <span>frescor em cada fatia</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="promise-strip" aria-label="Diferenciais da Doces da Tia Bita">
+        <div class="container promise-grid">
+          <article class="promise-item">
+            <svg viewBox="0 0 80 80" aria-hidden="true">
+              <path d="M28 26c-4-10 8-20 17-12 9-8 23 3 16 15 9 2 12 16 0 22v16H23V51c-12-5-8-20 5-25Z" />
+              <path d="M23 51h38M29 59h26M35 67h14" />
+            </svg>
+            <div>
+              <h3>Feito</h3>
+              <p>com amor &lt;3</p>
+            </div>
+          </article>
+
+          <article class="promise-item">
+            <svg viewBox="0 0 80 80" aria-hidden="true">
+              <circle cx="34" cy="43" r="20" />
+              <circle cx="34" cy="43" r="14" />
+              <path d="M49 28 66 11c3-3 7 1 4 4L53 32M62 15l4 4" />
+            </svg>
+            <div>
+              <h3>Produção</h3>
+              <p>feita diariamente na nossa cozinha</p>
+            </div>
+          </article>
+
+          <article class="promise-item">
+            <svg viewBox="0 0 80 80" aria-hidden="true">
+              <path d="M27 18 61 32 45 68 15 55Z" />
+              <path d="M30 23 56 34M23 55c8-12 16-18 32-21M28 60c7-10 14-16 25-20" />
+              <path d="M54 19 66 10M58 23 70 14" />
+            </svg>
+            <div>
+              <h3>Empresa</h3>
+              <p>familiar e repleta de cuidados</p>
+            </div>
+          </article>
+
+          <article class="promise-item">
+            <svg viewBox="0 0 80 80" aria-hidden="true">
+              <path d="M16 12c8 0 12 8 8 21l-5 16v19M16 12c-8 0-12 8-8 21l5 16v19" />
+              <path d="M42 12v56M34 12v21c0 7 16 7 16 0V12M34 24h16" />
+              <path d="M64 12c8 0 10 10 8 20-2 9-5 15-8 15s-6-6-8-15c-2-10 0-20 8-20Zm0 35v21" />
+            </svg>
+            <div>
+              <h3>Sabor</h3>
+              <p>inesquecível e com toque de doçura</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section product-section" id="destaques">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Mais pedidos</span>
+            <h2>Vitrine de pequenos encantos</h2>
+            <p>Uma seleção afetiva para aniversários, café da tarde e presentes que dizem muito.</p>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card product-card-large">
+              <img
+                src="redvelvet.png"
+                alt="Bolo confeitado com frutas vermelhas"
+              />
+              <div class="product-content">
+                <span class="product-tag">Assinatura da casa</span>
+                <h3>Bolo Red Velvet</h3>
+                <p>Massa de red velvet, recheio de quatro leites e geleia de morango fresco.</p>
+                <strong>A partir de R$ 100,00</strong>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <img
+                src="bolorosa.jpeg"
+                alt="Sobremesa cremosa em taca"
+              />
+              <div class="product-content">
+                <h3>Bolo Decorado Coquette</h3>
+                <p>Massa branca, recheio de ninho e ferrero rocher, cobertura de chantininho.</p>
+                <strong>R$ 220,00</strong>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <img
+                src="cupcakes.jpg"
+                alt="Cupcakes decorados com cobertura rosa"
+              />
+              <div class="product-content">
+                <h3>Cupcakes Decorados</h3>
+                <p>Porções delicadas para compor mesas e lembranças.</p>
+                <strong>R$ 9,90</strong>
+              </div>
+            </article>
+
+            <article class="product-card product-card-wide">
+              <img
+                src="brigadeiros.jpg"
+                alt="Doces finos com cobertura e confeitos"
+              />
+              <div class="product-content">
+                <span class="product-tag">Os clássicos</span>
+                <h3>Caixa de Docinhos Finos</h3>
+                <p>Brigadeiros tradicionais e beijinhos. </p>
+                <strong>A partir de R$ 80,00</strong>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section menu-section" id="cardapio">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Cardápio</span>
+            <h2>Escolha por categoria</h2>
+            <p>Veja valores, sabores e combinações para montar sua encomenda com calma.</p>
+          </div>
+
+          <div class="menu-topic-grid">
+            <article class="menu-topic-card">
+              <span>01</span>
+              <h3>Bolos decorados</h3>
+              <p>Tamanhos por aro, rendimento aproximado em fatias e valores para encomenda.</p>
+              <a class="btn btn-primary" href="#bolos-decorados">Abrir detalhes</a>
+            </article>
+
+            <article class="menu-topic-card">
+              <span>02</span>
+              <h3>Massas e recheios</h3>
+              <p>Massas artesanais, recheios clássicos, mousses e adicionais para personalizar.</p>
+              <a class="btn btn-primary" href="#massas-recheios">Abrir detalhes</a>
+            </article>
+
+            <article class="menu-topic-card">
+              <span>03</span>
+              <h3>Sobremesas</h3>
+              <p>Travessas generosas para almoços, festas, encontros e mesas de celebração.</p>
+              <a class="btn btn-primary" href="#sobremesas">Abrir detalhes</a>
+            </article>
+
+            <article class="menu-topic-card">
+              <span>04</span>
+              <h3>Docinhos gourmet</h3>
+              <p>Sabores queridinhos para compor mesas de festa, caixas e lembranças especiais.</p>
+              <a class="btn btn-primary" href="#docinhos-gourmet">Abrir detalhes</a>
+            </article>
+          </div>
+
+          <div class="menu-details">
+            <article class="detail-panel" id="bolos-decorados">
+              <div class="detail-heading">
+                <span class="eyebrow">Tabela de preço</span>
+                <h3>Bolos decorados</h3>
+              </div>
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Tamanho</th>
+                      <th>Rendimento</th>
+                      <th>Valor</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Bolo aro 10 cm</td>
+                      <td>4 a 6 fatias</td>
+                      <td>R$ 100,00</td>
+                    </tr>
+                    <tr>
+                      <td>Bolo aro 12 cm</td>
+                      <td>8 a 10 fatias</td>
+                      <td>R$ 140,00</td>
+                    </tr>
+                    <tr>
+                      <td>Bolo aro 15 cm</td>
+                      <td>12 a 15 fatias</td>
+                      <td>R$ 180,00</td>
+                    </tr>
+                    <tr>
+                      <td>Bolo aro 18 cm</td>
+                      <td>17 a 20 fatias</td>
+                      <td>R$ 220,00</td>
+                    </tr>
+                    <tr>
+                      <td>Bolo aro 20 cm</td>
+                      <td>19 a 23 fatias</td>
+                      <td>R$ 280,00</td>
+                    </tr>
+                    <tr>
+                      <td>Bolo aro 25 cm</td>
+                      <td>21 a 33 fatias</td>
+                      <td>R$ 330,00</td>
+                    </tr>
+                    <tr>
+                      <td>Bolo aro 30 cm</td>
+                      <td>30 a 45 fatias</td>
+                      <td>R$ 430,00</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </article>
+
+            <article class="detail-panel flavor-panel" id="massas-recheios">
+              <div class="detail-heading">
+                <span class="eyebrow">Sabores</span>
+                <h3>Massas e recheios</h3>
+              </div>
+              <div class="flavor-columns">
+                <div class="flavor-card dough-card">
+                  <h4>Massas</h4>
+                  <ul class="flavor-list star-list">
+                    <li>Amanteigada</li>
+                    <li>Red velvet</li>
+                    <li>Chocolate</li>
+                    <li>Cenoura</li>
+                    <li>Limão</li>
+                    <li>Laranja</li>
+                    <li>Baunilha</li>
+                    <li>Mesclado</li>
+                  </ul>
+                </div>
+                <div class="flavor-card fillings-card">
+                  <h4>Recheios</h4>
+                  <ul class="flavor-list dot-list">
+                    <li>Chocolate meio amargo</li>
+                    <li>Chocolate ao leite</li>
+                    <li>Chocolate branco</li>
+                    <li>Negresco</li>
+                    <li>Leite ninho</li>
+                    <li>Quatro leites</li>
+                    <li>Mousse sensação de morango</li>
+                    <li>Mousse sensação de maracujá</li>
+                    <li>Mousse de limão</li>
+                    <li>Brigadeiro de limão</li>
+                    <li>Brigadeiro de maracujá</li>
+                    <li>Ninho com abacaxi</li>
+                    <li>Ninho com morango</li>
+                    <li>Ninho com geleia de morango</li>
+                    <li>Ninho com avelã</li>
+                    <li>Ferrero Rocher</li>
+                  </ul>
+                </div>
+                <div class="flavor-card extras-card">
+                  <h4>Recheios adicionais</h4>
+                  <ul class="flavor-list icon-list">
+                    <li><span aria-hidden="true">✦</span>Geleia artesanal de morango</li>
+                    <li><span aria-hidden="true">◆</span>Crocante de amendoim</li>
+                    <li><span aria-hidden="true">▰</span>Chocolate triturado</li>
+                    <li><span aria-hidden="true">●</span>Frutas a definir</li>
+                    <li><span aria-hidden="true">◐</span>Brigadeiro</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="detail-panel" id="sobremesas">
+              <div class="detail-heading">
+                <span class="eyebrow">Travessas</span>
+                <h3>Sobremesas</h3>
+              </div>
+              <div class="price-list">
+                <div><span>Limão tradicional</span><strong>R$ 120,00</strong></div>
+                <div><span>Torta de limão com chocolate</span><strong>R$ 120,00</strong></div>
+                <div><span>Holandesa</span><strong>R$ 140,00</strong></div>
+                <div><span>Casadinho</span><strong>R$ 120,00</strong></div>
+                <div><span>Morango</span><strong>R$ 140,00</strong></div>
+                <div><span>Banoffe</span><strong>R$ 140,00</strong></div>
+                <div><span>Chocolate com morango</span><strong>R$ 140,00</strong></div>
+                <div><span>Maracujá</span><strong>R$ 120,00</strong></div>
+                <div><span>Prestígio</span><strong>R$ 120,00</strong></div>
+                <div><span>Bombom de uva</span><strong>R$ 120,00</strong></div>
+                <div><span>Pavê tradicional</span><strong>R$ 120,00</strong></div>
+                <div><span>Pavê 2 amores</span><strong>R$ 140,00</strong></div>
+                <div><span>Delícia de abacaxi</span><strong>R$ 120,00</strong></div>
+                <div><span>Bombom na travessa</span><strong>R$ 140,00</strong></div>
+              </div>
+            </article>
+
+            <article class="detail-panel sweets-panel" id="docinhos-gourmet">
+              <div class="detail-heading">
+                <span class="eyebrow">Festa</span>
+                <h3>Docinhos gourmet</h3>
+              </div>
+              <div class="sweets-grid">
+                <div class="flavor-card sweets-card sweets-menu-card">
+                  <h4>Sabores</h4>
+                  <ul class="flavor-list sweet-dot-list">
+                    <li>Brigadeiro tradicional</li>
+                    <li>Prestígio</li>
+                    <li>Brigadeiro de limão</li>
+                    <li>Beijinho</li>
+                    <li>Casadinho</li>
+                    <li>Leite ninho</li>
+                    <li>Olho de sogra</li>
+                    <li>Fini - sabor desejado</li>
+                    <li>Moranguinho</li>
+                    <li>Crocobol</li>
+                    <li>Crocante de amendoim</li>
+                  </ul>
+                </div>
+
+                <div class="flavor-card sweets-card sweets-price-card">
+                  <h4>Valores</h4>
+                  <div class="sweet-prices">
+                    <div>
+                      <span>O cento de docinho</span>
+                      <strong>R$ 140,00</strong>
+                    </div>
+                    <div>
+                      <span>Meio cento de docinho</span>
+                      <strong>R$ 80,00</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="story section" id="historia">
+        <div class="container story-grid">
+          <div class="story-media">
+            <img
+              src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=900&q=85"
+              alt="Confeiteira preparando massa artesanal"
+            />
+          </div>
+          <div class="story-copy">
+            <span class="eyebrow eyebrow-light">Nossa história</span>
+            <h2>Receitas de família, acabamento de ateliê.</h2>
+            <p>
+              A Doces da Tia Bita nasceu da cozinha onde todo encontro terminava em sobremesa, na cidade de Manaus - AM.
+              Hoje, cada encomenda continua carregando o mesmo cuidado: ingredientes escolhidos
+              com calma, preparo diário e uma apresentação pensada para emocionar.
+            </p>
+            <p>
+              Do bolo de aniversário ao mimo de última hora, fazemos doces que acolhem sem perder
+              a elegância.
+            </p>
+            <a class="btn btn-light" href="https://wa.me/5585986441960" target="_blank" rel="noreferrer">
+              Encomendar pelo WhatsApp
+            </a>
+          </div>
+        </div>
+      </section>
+    
+      <section class="instagram-section" id="instagram" aria-label="Postagens do Instagram da Doces da Tia Bita">
+        <div class="instagram-heading container">
+          <a class="instagram-handle" href="https://www.instagram.com/docestiabita/" target="_blank" rel="noreferrer">@docestiabita</a>
+          <h2>Acompanhe nosso Instagram</h2>
+          <p>Veja encomendas reais, bastidores e novidades direto do nosso feed.</p>
+        </div>
+
+        <div class="instagram-marquee">
+          <div class="instagram-track">
+            <a class="instagram-post" href="https://www.instagram.com/p/DaSzwzZgayj/" target="_blank" rel="noreferrer"><img src="assets/instagram-1.jpg" alt="Post do Instagram sobre agenda de julho aberta" /><span>Agenda de julho aberta</span></a>
+            <a class="instagram-post instagram-post-tall" href="https://www.instagram.com/p/DVyUvDLAHBL/" target="_blank" rel="noreferrer"><img src="assets/instagram-2.jpg" alt="Post do Instagram com bolos caseiros e decorados" /><span>Bolo para todo momento</span></a>
+            <a class="instagram-post" href="https://www.instagram.com/p/DZGbSoVlgNA/" target="_blank" rel="noreferrer"><img src="assets/instagram-3.jpg" alt="Post do Instagram com bolo de mesversário tema praia" /><span>Mesversário tema praia</span></a>
+            <a class="instagram-post" href="https://www.instagram.com/p/DZGbAY5Fuki/" target="_blank" rel="noreferrer"><img src="assets/instagram-4.jpg" alt="Post do Instagram com bolo de bodas" /><span>Bodas de cedro</span></a>
+            <a class="instagram-post instagram-post-tall" href="https://www.instagram.com/p/DY7FwC8liaY/" target="_blank" rel="noreferrer"><img src="assets/instagram-5.jpg" alt="Post do Instagram com bolinhos caseiros" /><span>Bolinhos da semana</span></a>
+            <a class="instagram-post" href="https://www.instagram.com/p/DYktSCcFv1k/" target="_blank" rel="noreferrer"><img src="assets/instagram-6.jpg" alt="Post do Instagram com bolo de chocolate e brigadeiros" /><span>Chocolate lovers</span></a>
+            <a class="instagram-post" href="https://www.instagram.com/p/DYfpr1TlrZS/" target="_blank" rel="noreferrer"><img src="assets/instagram-7.jpg" alt="Post do Instagram com bolo de aniversário de 18 anos" /><span>18 anos com estilo</span></a>
+            <a class="instagram-post instagram-post-tall" href="https://www.instagram.com/p/DYVQBh6FmQy/" target="_blank" rel="noreferrer"><img src="assets/instagram-8.jpg" alt="Post do Instagram com bolo de mesversário delicado" /><span>Mesversário delicado</span></a>
+            <a class="instagram-post" href="https://www.instagram.com/p/DaSzwzZgayj/" target="_blank" rel="noreferrer"><img src="assets/instagram-1.jpg" alt="" /><span>Agenda de julho aberta</span></a>
+            <a class="instagram-post instagram-post-tall" href="https://www.instagram.com/p/DVyUvDLAHBL/" target="_blank" rel="noreferrer"><img src="assets/instagram-2.jpg" alt="" /><span>Bolo para todo momento</span></a>
+            <a class="instagram-post" href="https://www.instagram.com/p/DZGbSoVlgNA/" target="_blank" rel="noreferrer"><img src="assets/instagram-3.jpg" alt="" /><span>Mesversário tema praia</span></a>
+            <a class="instagram-post" href="https://www.instagram.com/p/DZGbAY5Fuki/" target="_blank" rel="noreferrer"><img src="assets/instagram-4.jpg" alt="" /><span>Bodas de cedro</span></a>
+            <a class="instagram-post instagram-post-tall" href="https://www.instagram.com/p/DY7FwC8liaY/" target="_blank" rel="noreferrer"><img src="assets/instagram-5.jpg" alt="" /><span>Bolinhos da semana</span></a>
+            <a class="instagram-post" href="https://www.instagram.com/p/DYktSCcFv1k/" target="_blank" rel="noreferrer"><img src="assets/instagram-6.jpg" alt="" /><span>Chocolate lovers</span></a>
+            <a class="instagram-post" href="https://www.instagram.com/p/DYfpr1TlrZS/" target="_blank" rel="noreferrer"><img src="assets/instagram-7.jpg" alt="" /><span>18 anos com estilo</span></a>
+            <a class="instagram-post instagram-post-tall" href="https://www.instagram.com/p/DYVQBh6FmQy/" target="_blank" rel="noreferrer"><img src="assets/instagram-8.jpg" alt="" /><span>Mesversário delicado</span></a>
+          </div>
+        </div>
+
+        <div class="instagram-actions container">
+          <a class="btn btn-primary" href="https://www.instagram.com/docestiabita/" target="_blank" rel="noreferrer">Ver perfil no Instagram</a>
+        </div>
+      </section></main>
+
+    <footer class="footer" id="contato">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand footer-brand" href="#inicio" aria-label="Doces da Tia Bita">
+            <span class="brand-mark brand-logo-wrap">
+              <img src="assets/logo-tia-bita.png" alt="" />
+            </span>
+            <span>
+              <strong>Doces da Tia Bita</strong>
+            </span>
+          </a>
+          <p>Confeitaria artesanal para celebrar dias simples e ocasiões inesquecíveis.</p>
+        </div>
+        <div class="footer-links">
+          <strong>Contato</strong>
+          <a href="tel:+5585986441960">(85) 9 8644-1960</a>
+          <a href="mailto:pedidos@docesdatiabita.com">pedidos@docesdatiabita.com</a>
+          <span>Retirada no local ou por uber flash.</span>
+        </div>
+        <div class="footer-links">
+          <strong>Redes sociais</strong>
+          <a href="https://www.instagram.com/docestiabita/" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://www.facebook.com/cilene.honorato.75" target="_blank" rel="noreferrer">Facebook</a>
+          <a href="https://www.tiktok.com/docestiabita" target="_blank" rel="noreferrer">TikTok</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
